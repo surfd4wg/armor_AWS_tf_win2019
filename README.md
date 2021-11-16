@@ -15,4 +15,4 @@ To tail the Ec2 user data installation log: Get-Content 'C:\Program Files\Amazon
 
 If the Armor Agent installed correctly, you should see the c:\armorinstall and c:.armor directories. If SSH installed correctly, you should see the c:\OpenSSH directory. If IIS installed correctly, you should see the c:\inetpub directory.
 
-TO grep for processes, open a powershell command window... function grep { $input | out-string -stream | select-string $args } Get-Process | grep armor
+To grep for processes, open a powershell command window... function grep { $input | out-string -stream | select-string $args } Get-Process | grep armor
